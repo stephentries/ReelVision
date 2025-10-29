@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Description</title>
+    <link rel="stylesheet" href="synopsis1style.css">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Dongle&family=Noto+Sans:ital,wdth,wght@0,85.5,500;1,85.5,500&display=swap');</style>
+</head>
+
+<body>
+    <!-- main nav bar-->
+    <header>
+        <nav class="Main-Nav">
+        <a href="homepage.html"><img src="reelvision.png"></a>
+        <a href="movielist.html">Movie List</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contacts</a>
+        <div class="search-wrapper">
+            <input type="text" id="search-bar" placeholder="search a movie,actor, genre here...">
+            <button class="search-button" id="search-button">Search</button>
+        </div>
+        
+        </nav>
+    </header>
+
+    <!-- Movie Synopsis Section -->
+    <section class="synopsis-section">
+        <div class="movie-poster">
+            <img src="https://upload.wikimedia.org/wikipedia/en/9/9b/Blade_Runner_2049_poster.png" alt="Alita: Battle Angel Poster">
+        </div>
+        <div class="movie-description">
+            <h1>Blade Runner 2049</h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/gCcx85zbxz4" title="Blade Runner 2049 Trailer" frameborder="0" allowfullscreen></iframe>
+            <p>Genres: #Sci-fi#Cyberpunk#Epic</p>
+            <p>Actors:#Harrison Ford , #Ryan Gosling , #Ana De Armas</p>
+            <p>Year: 2017</p>
+            <p>
+                Thirty years after the events of the first film, a new blade runner, LAPD Officer K (Ryan Gosling), unearths a long-buried secret that has the potential to plunge what’s left of society into chaos. K’s discovery leads him on a quest to find Rick Deckard (Harrison Ford), a former LAPD blade runner who has been missing for 30 years.
+            </p>
+        </div>
+    </section>
+
+    <!-- Suggestions Section -->
+    <section class="suggestions-section">
+        <h2>You Might Also Like</h2>
+        <div class="suggested-movies">
+            <div class="suggested-movie">
+                <a href="pacific.html"><img src="https://upload.wikimedia.org/wikipedia/en/f/f3/Pacific_Rim_FilmPoster.jpeg" alt="Pacific Rim Poster"></a>
+                <h3>Pacific Rim</h3>
+            </div>
+            <div class="suggested-movie">
+                <a href="alita.html"><img class="movie-poster" src="https://upload.wikimedia.org/wikipedia/en/e/ee/Alita_Battle_Angel_%282019_poster%29.png"></a>
+                <h3>Alita:Battle angel</h3>
+            </div>
+            <div class="suggested-movie">
+                <a href="inception.html"><img src="https://upload.wikimedia.org/wikipedia/en/2/2e/Inception_%282010%29_theatrical_poster.jpg" alt="Inception Poster"></a>
+                <h3>Inception</h3>
+            </div>
+        </div>
+    </section>
+    <div class="loader" id="loader"> </div>
+
+    <footer>
+        <p>&copy; 2025 ReelVision Entertainment</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

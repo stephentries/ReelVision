@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Description</title>
+    <link rel="stylesheet" href="synopsis1style.css">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Dongle&family=Noto+Sans:ital,wdth,wght@0,85.5,500;1,85.5,500&display=swap');</style>
+</head>
+
+<body>
+    <!-- main nav bar-->
+    <header>
+        <nav class="Main-Nav">
+        <a href="homepage.html"><img src="reelvision.png"></a>
+        <a href="movielist.html">Movie List</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contacts</a>
+        <div class="search-wrapper">
+            <input type="text" id="search-bar" placeholder="search a movie,actor, genre here...">
+            <button class="search-button" id="search-button">Search</button>
+        </div>
+        
+        </nav>
+    </header>
+
+    <!-- Movie Synopsis Section -->
+    <section class="synopsis-section">
+        <div class="movie-poster">
+            <img src="https://m.media-amazon.com/images/M/MV5BZTk5ODY0MmQtMzA3Ni00NGY1LThiYzItZThiNjFiNDM4MTM3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Alita: Battle Angel Poster">
+        </div>
+        <div class="movie-description">
+            <h1>Deadpool & Wolverine</h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/73_1biulkYk" title="Alita: Battle Angel Trailer" frameborder="0" allowfullscreen></iframe>
+            <p>Genres: #Sci-fi#Superhero#Adventure#Action</p>
+            <p>Actors:#Ryan Reynolds, #Hugh Jackman, #Emma Corrin</p>
+            <p>Year: 2024</p>
+            <p>
+                Deadpool's peaceful existence comes crashing down when the Time Variance Authority recruits him to help safeguard the multiverse. He soon unites with his would-be pal, Wolverine, to complete the mission and save his world from an existential threat.
+            </p>
+        </div>
+    </section>
+
+    <!-- Suggestions Section -->
+    <section class="suggestions-section">
+        <h2>You Might Also Like</h2>
+        <div class="suggested-movies">
+            <div class="suggested-movie">
+                <a href="avenger.html"><img src="https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg" alt="Avengers" alt="Avengers Poster"></a>
+                <h3>Avengers</h3>
+            </div>
+            <div class="suggested-movie">
+                <a href="blade.html"><img src="https://upload.wikimedia.org/wikipedia/en/9/9b/Blade_Runner_2049_poster.png" alt="Blade Runner 2049 Poster"></a>
+                <h3>Blade Runner 2049</h3>
+            </div>
+            <div class="suggested-movie">
+                <a href="inception.html"><img src="https://upload.wikimedia.org/wikipedia/en/2/2e/Inception_%282010%29_theatrical_poster.jpg" alt="Inception Poster"></a>
+                <h3>Inception</h3>
+            </div>
+        </div>
+    </section>
+    <div class="loader" id="loader"> </div>
+
+    <footer>
+        <p>&copy; 2025 ReelVision Entertainment</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

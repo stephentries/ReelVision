@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Description</title>
+    <link rel="stylesheet" href="synopsis1style.css">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Dongle&family=Noto+Sans:ital,wdth,wght@0,85.5,500;1,85.5,500&display=swap');</style>
+</head>
+
+<body>
+    <!-- main nav bar-->
+    <header>
+        <nav class="Main-Nav">
+        <a href="homepage.html"><img src="reelvision.png"></a>
+        <a href="movielist.html">Movie List</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contacts</a>
+        <div class="search-wrapper">
+            <input type="text" id="search-bar" placeholder="search a movie,actor, genre here...">
+            <button class="search-button" id="search-button">Search</button>
+        </div>
+        
+        </nav>
+    </header>
+
+    <!-- Movie Synopsis Section -->
+    <section class="synopsis-section">
+        <div class="movie-poster">
+            <img src="https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg">
+        </div>
+        <div class="movie-description">
+            <h1>Avengers</h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/eOrNdBpGMv8" title="Avengers" frameborder="0" allowfullscreen></iframe>
+            <p>Genres: #Sci-fi#Superhero#Action#Epic</p>
+            <p>Actors:#Robert Downey Jr, #Chris Evans, #Scarlett Johansson</p>
+            <p>Year: 2012</p>
+            <p>
+                S.H.I.E.L.D. leader Nick Fury is compelled to launch the Avengers programme when Loki poses a threat to planet Earth. But the superheroes must learn to work together if they are to stop him in time.
+            </p>
+        </div>
+    </section>
+
+    <!-- Suggestions Section -->
+    <section class="suggestions-section">
+        <h2>You Might Also Like</h2>
+        <div class="suggested-movies">
+            <div class="suggested-movie">
+                <a href="pacific.html"><img src="https://upload.wikimedia.org/wikipedia/en/f/f3/Pacific_Rim_FilmPoster.jpeg" alt="Pacific Rim Poster"></a>
+                <h3>Pacific Rim</h3>
+            </div>
+            <div class="suggested-movie">
+                <a href="blade.html"><img src="https://upload.wikimedia.org/wikipedia/en/9/9b/Blade_Runner_2049_poster.png" alt="Blade Runner 2049 Poster"></a>
+                <h3>Blade Runner 2049</h3>
+            </div>
+            <div class="suggested-movie">
+                <a href="deadpool.html"><img src="https://m.media-amazon.com/images/M/MV5BZTk5ODY0MmQtMzA3Ni00NGY1LThiYzItZThiNjFiNDM4MTM3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Deadpool Poster"></a>
+                <h3>Deadpool & Wolverine</h3>
+            </div>
+        </div>
+    </section>
+    <div class="loader" id="loader"> </div>
+
+    <footer>
+        <p>&copy; 2025 ReelVision Entertainment</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

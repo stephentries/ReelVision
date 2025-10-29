@@ -1,0 +1,162 @@
+*{
+    color:white;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-kerning: auto;
+    font-variation-settings:
+      "wdth" 85.5;
+
+}
+
+body{
+    background-color: black;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #333; 
+    height: 60px; 
+}
+
+.Main-Nav {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    align-items: center; 
+    height: 100%; 
+    padding: 0 20px; 
+}
+
+.Main-Nav a img {
+    max-height: 50px; 
+    width: auto; 
+    margin-top: 10px;
+    margin-right: 20px; 
+    justify-content: center;
+}
+
+input {
+    width: 300px; 
+    height: 30px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #333;
+    border-radius: 4px;
+}
+
+a {
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+a:hover {
+    opacity: 0.7;
+    color: #F5C518;
+}
+
+.synopsis-section {
+    display: flex;
+    padding: 50px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.movie-poster {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.movie-poster img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.movie-description {
+    flex: 2;
+}
+
+.movie-description h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.movie-description iframe {
+    width: 100%; /* Make the video full width */
+    height: 315px; /* Set a specific height */
+    margin-bottom: 20px; /* Add space below the video */
+}
+
+.movie-description p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #ccc;
+}
+
+.suggestions-section {
+    padding: 50px;
+    text-align: center;
+}
+
+.suggestions-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #F5C518;
+}
+
+.suggested-movies {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.suggested-movie {
+    text-align: center;
+}
+
+.suggested-movie img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.search-button {
+    height: 35px;
+    font-size: 16px;
+    background-color:red;
+    color: white;
+    border-radius:4px;
+}
+.search-button:hover{
+    background-color: #F5C518;
+}
+/* loader css */
+.loader {
+    display:none;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+  }
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+footer {
+    background-color: #111;
+    color: #ccc;
+    text-align: left;
+    padding: 20px 0;
+    margin-top: 50px;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Home Page</title>
+    <link rel="stylesheet" href="homepagestyle.css">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Dongle&family=Noto+Sans:ital,wdth,wght@0,85.5,500;1,85.5,500&display=swap');</style>
+</head>
+
+<body>
+    <!-- main nav bar-->
+    <header>
+        <nav class="Main-Nav">
+        <a href="homepage.html"><img src="reelvision.png"></a>
+        <a href="movielist.html">Movie List</a>
+        <a href="about.html#about">About</a>
+            <a href="contact.html#contacts">Contacts</a>
+        <div class="search-wrapper">
+             <input type="text" id="search-bar" placeholder="search a movie,actor, genre here...">
+             <button class="search-button" id="search-button">Search</button>
+         </div>
+            </nav>
+    </header>
+    <section class="hero">
+    <div class="hero-content">
+        <a href="pacific.html"><h1>Pacific Rim</h1>
+        <p>As a war between humankind and monstrous sea creatures wages on, a former pilot and a trainee are paired up to drive a seemingly obsolete special weapon in a desperate effort to save the world from the apocalypse.</p>
+        <div class="netflix-badge">Kaiju, Action, Adventure, Sci-Fi</div>
+        <div class="netflix-badge">2013, 2h11m</div>
+    </a>
+        <a href="https://www.youtube.com/watch?v=5guMumPFBag" target="_blank">
+    <button class="watch-button">Watch Trailer ►</button>
+    </a>
+
+    </div>
+    </section>
+
+    <section class="popular-section">
+     <h2>Popular</h2>
+     <div class="movies-grid">
+        <div class="movie-card">
+            <a href="blade.html">
+                <img src="https://m.media-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_.jpg" alt="Blade Runner 2049">
+                <div class="movie-rank">#43</div>
+                <div class="movie-info">
+                    <h3>Blade Runner 2049</h3>
+                    <p>Action, 2017</p>
+                </div>
+            </a>    
+        </div>
+        
+        <div class="movie-card">
+            <a href="alita.html">
+                <img src="https://m.media-amazon.com/images/M/MV5BYmZhZGQzM2MtMWEyZC00YTU1LTk4YTQtMTg3ZjEzM2U1NTkxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Alita: Battle Angel">
+                <div class="movie-rank">#40</div>
+                <div class="movie-info">
+                    <h3>Alita: Battle Angel</h3>
+                    <p>Cyberpunk, 2019</p>
+                </div>
+            </a>
+        </div>
+        
+        <div class="movie-card">
+            <a href="john.html">
+                <img src="https://m.media-amazon.com/images/M/MV5BMTU2NjA1ODgzMF5BMl5BanBnXkFtZTgwMTM2MTI4MjE@._V1_.jpg" alt="John Wick">
+                <div class="movie-rank">#30</div>
+                <div class="movie-info">
+                    <h3>John Wick</h3>
+                    <p>Action, 2014</p>
+                </div>
+            </a>
+        </div>
+        
+        <div class="movie-card">
+            <a href="top.html">
+                <img src="https://m.media-amazon.com/images/M/MV5BMDBkZDNjMWEtOTdmMi00NmExLTg5MmMtNTFlYTJlNWY5YTdmXkEyXkFqcGc@._V1_.jpg" alt="Top Gun: Maverick">
+                <div class="movie-rank">#29</div>
+                <div class="movie-info">
+                    <h3>Top Gun: Maverick</h3>
+                    <p>Action Epic, 2022</p>
+                </div>
+            </a>
+        </div>
+        
+        <div class="movie-card">
+            <a href="avenger.html">
+                <img src="https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg" alt="Avengers">
+                <div class="movie-rank">#20</div>
+                <div class="movie-info">
+                    <h3>Avengers</h3>
+                    <p>Action, 2012</p>
+                </div>
+            </a>
+        </div>
+        
+        
+        <div class="movie-card">
+            <a href="deadpool.html">
+                <img src="https://m.media-amazon.com/images/M/MV5BZTk5ODY0MmQtMzA3Ni00NGY1LThiYzItZThiNjFiNDM4MTM3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Deadpool & Wolverine">
+                <div class="movie-rank">#05</div>
+                <div class="movie-info">
+                    <h3>Deadpool & Wolverine</h3>
+                    <p>Buddy Comedy, 2024</p>
+                </div>
+            </a>
+        </div>
+      </div>  
+    </section>
+    
+    <hr class="section-divider">
+    <div class="loader" id="loader"> </div>
+    </main>
+   
+    <footer>
+        <p>&copy; 2025 ReelVision Entertainment</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+    
+</body>
+
+</html>
